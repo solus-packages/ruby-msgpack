@@ -5,23 +5,15 @@ source     :
     - https://rubygems.org/downloads/msgpack-1.2.2.gem : 2136d3836ec8c4a10630d20fc4238fc06ebc913a766eedc618d9cab49bd320aa
 license    : Apache-2.0
 component  : programming.ruby
-summary    : A binary-based efficient object serialization library.
+extract    : no
+summary    : RubyGem - msgpack
 description: |
     MessagePack is a binary-based efficient object serialization library. It enables to exchange
     structured objects between many languages like JSON. But unlike JSON, it is very fast and
     small.
-extract    : no
 builddeps  :
     - pkgconfig(ruby-2.3)
 rundeps    :
     - ruby
 install    : |
-    export geminstalldir=$(ruby -e'puts Gem.default_dir')
-    export GEM_HOME=$geminstalldir
-    export GEM_PATH=$geminstalldir
-    gem install \
-        --ignore-dependencies \
-        --no-user-install \
-        -i "$installdir/$geminstalldir" \
-        -n "$installdir/usr/bin" \
-        $sources/msgpack-$version.gem
+    %gem_install

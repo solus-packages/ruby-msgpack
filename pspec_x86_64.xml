@@ -2,12 +2,12 @@
     <Source>
         <Name>ruby-msgpack</Name>
         <Packager>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Packager>
         <License>Apache-2.0</License>
-        <PartOf>programming.library</PartOf>
-        <Summary xml:lang="en">A binary-based efficient object serialization library.</Summary>
+        <PartOf>programming.ruby</PartOf>
+        <Summary xml:lang="en">RubyGem - msgpack</Summary>
         <Description xml:lang="en">MessagePack is a binary-based efficient object serialization library. It enables to exchange
 structured objects between many languages like JSON. But unlike JSON, it is very fast and
 small.
@@ -16,101 +16,15 @@ small.
     </Source>
     <Package>
         <Name>ruby-msgpack</Name>
-        <Summary xml:lang="en">A binary-based efficient object serialization library.</Summary>
+        <Summary xml:lang="en">RubyGem - msgpack</Summary>
         <Description xml:lang="en">MessagePack is a binary-based efficient object serialization library. It enables to exchange
 structured objects between many languages like JSON. But unlike JSON, it is very fast and
 small.
 </Description>
-        <PartOf>programming.library</PartOf>
+        <PartOf>programming.ruby</PartOf>
         <Files>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/cache/msgpack-1.2.2.gem</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Array/cdesc-Array.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Array/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Bignum/cdesc-Bignum.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Bignum/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/FalseClass/cdesc-FalseClass.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/FalseClass/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Fixnum/cdesc-Fixnum.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Fixnum/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Float/cdesc-Float.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Float/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Hash/cdesc-Hash.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Hash/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Integer/cdesc-Integer.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Integer/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/CoreExt/cdesc-CoreExt.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/CoreExt/to_msgpack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/ExtensionValue/cdesc-ExtensionValue.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/ExtensionValue/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Factory/cdesc-Factory.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Factory/dump-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Factory/load-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Factory/pack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Factory/registered_types-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Factory/type_registered%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Factory/unpack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/MalformedFormatError/cdesc-MalformedFormatError.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Packer/cdesc-Packer.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Packer/registered_types-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Packer/type_registered%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/StackError/cdesc-StackError.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/TypeError/cdesc-TypeError.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/UnexpectedTypeError/cdesc-UnexpectedTypeError.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/UnknownExtTypeError/cdesc-UnknownExtTypeError.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/UnpackError/cdesc-UnpackError.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/allow_unknown_ext%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/buffer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/cdesc-Unpacker.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/each-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/feed-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/feed_each-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/full_unpack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/new-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/read-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/read_array_header-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/read_map_header-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/register_type-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/registered_types-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/registered_types_internal-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/reset-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/skip-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/skip_nil-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/symbolize_keys%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/type_registered%3f-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/Unpacker/unpack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/cdesc-MessagePack.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/dump-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/dump-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/load-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/load-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/pack-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/pack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/unpack-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/MessagePack/unpack-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/NilClass/cdesc-NilClass.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/NilClass/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/String/cdesc-String.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/String/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Symbol/cdesc-Symbol.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Symbol/from_msgpack_ext-c.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Symbol/to_msgpack_ext-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/Symbol/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/TrueClass/cdesc-TrueClass.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/TrueClass/to_msgpack_with_packer-i.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/cache.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-Buffer_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-Decoder_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-Encoder_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-ExtensionRegistry_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-ExtensionValue_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-Factory_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-MessagePackLibrary_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-Packer_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-Types_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/java/org/msgpack/jruby/page-Unpacker_java.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/ext/msgpack/page-Makefile.ri</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc/msgpack-1.2.2/ri/unknown/cdesc-unknown.ri</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/msgpack-1.2.2/gem.build_complete</Path>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/msgpack-1.2.2/gem_make.out</Path>
             <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/msgpack-1.2.2/mkmf.log</Path>
@@ -233,11 +147,11 @@ small.
     </Package>
     <History>
         <Update release="4">
-            <Date>2018-01-22</Date>
+            <Date>2018-03-23</Date>
             <Version>1.2.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
         </Update>
     </History>
 </PISI>
