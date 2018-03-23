@@ -1,10 +1,10 @@
 name       : ruby-msgpack
-version    : 1.1.0
-release    : 3
+version    : 1.2.2
+release    : 4
 source     :
-    - https://rubygems.org/downloads/msgpack-1.1.0.gem : 07d27ad7563ec84adf6881e2aee2942c45f8d62938401bd15a922cd34ee06732
+    - https://rubygems.org/downloads/msgpack-1.2.2.gem : 2136d3836ec8c4a10630d20fc4238fc06ebc913a766eedc618d9cab49bd320aa
 license    : Apache-2.0
-component  : programming.library
+component  : programming.ruby
 summary    : A binary-based efficient object serialization library.
 description: |
     MessagePack is a binary-based efficient object serialization library. It enables to exchange
