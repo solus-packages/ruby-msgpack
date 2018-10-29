@@ -1,8 +1,8 @@
 name       : ruby-msgpack
-version    : 1.2.2
-release    : 4
+version    : 1.2.4
+release    : 5
 source     :
-    - https://rubygems.org/downloads/msgpack-1.2.2.gem : 2136d3836ec8c4a10630d20fc4238fc06ebc913a766eedc618d9cab49bd320aa
+    - https://rubygems.org/downloads/msgpack-1.2.4.gem : c42016f61bac66b39fc05f37ccc05fdd35f725aebcbf9f9b0c6d394e180fbe27
 license    : Apache-2.0
 component  : programming.ruby
 extract    : no
