@@ -1,6 +1,6 @@
 name       : ruby-msgpack
 version    : 1.2.4
-release    : 5
+release    : 6
 source     :
     - https://rubygems.org/downloads/msgpack-1.2.4.gem : c42016f61bac66b39fc05f37ccc05fdd35f725aebcbf9f9b0c6d394e180fbe27
 license    : Apache-2.0
@@ -12,7 +12,7 @@ description: |
     structured objects between many languages like JSON. But unlike JSON, it is very fast and
     small.
 builddeps  :
-    - pkgconfig(ruby-2.3)
+    - pkgconfig(ruby-2.6)
 rundeps    :
     - ruby
 install    : |

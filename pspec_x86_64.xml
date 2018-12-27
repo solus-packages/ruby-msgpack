@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-msgpack</Name>
         <Packager>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.ruby</PartOf>
@@ -23,135 +23,135 @@ small.
 </Description>
         <PartOf>programming.ruby</PartOf>
         <Files>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/msgpack-1.2.4/gem.build_complete</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/msgpack-1.2.4/gem_make.out</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/msgpack-1.2.4/mkmf.log</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/extensions/x86_64-linux/2.3.0/msgpack-1.2.4/msgpack/msgpack.so</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/.rubocop.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ChangeLog</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/README.rdoc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/appveyor.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/pack.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/pack_log.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/pack_log_long.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/pack_symbols.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/run.sh</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/run_long.sh</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/run_symbols.sh</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/unpack.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/unpack_log.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/bench/unpack_log_long.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack/buffer.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack/core_ext.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack/error.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack/extension_value.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack/factory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack/packer.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/doclib/msgpack/unpacker.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Buffer.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Decoder.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Encoder.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/ExtensionRegistry.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/ExtensionValue.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Factory.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/MessagePackLibrary.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Packer.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Types.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Unpacker.java</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/.RUBYARCHDIR.-.msgpack.time</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/Makefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/buffer.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/buffer.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/buffer.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/buffer_class.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/buffer_class.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/buffer_class.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/compat.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/extconf.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/extension_value_class.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/extension_value_class.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/extension_value_class.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/factory_class.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/factory_class.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/factory_class.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/msgpack.so</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer_class.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer_class.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer_class.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer_ext_registry.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer_ext_registry.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/packer_ext_registry.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/rbinit.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/rbinit.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/rmem.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/rmem.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/rmem.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/sysdep.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/sysdep_endian.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/sysdep_types.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_class.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_class.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_class.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_ext_registry.c</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_ext_registry.h</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_ext_registry.o</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack/core_ext.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack/factory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack/msgpack.so</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack/packer.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack/symbol.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack/unpacker.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/lib/msgpack/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/msgpack.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/msgpack.org.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cases.json</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cases.msg</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cases_compact.msg</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cases_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cruby/buffer_io_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cruby/buffer_packer.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cruby/buffer_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cruby/buffer_unpacker.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/cruby/unpacker_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/ext_value_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/exttypes.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/factory_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/format_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/jruby/benchmarks/shootout_bm.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/jruby/benchmarks/symbolize_keys_bm.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/jruby/unpacker_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/msgpack_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/pack_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/packer_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/random_compat.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/spec_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/unpack_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/gems/msgpack-1.2.4/spec/unpacker_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.3.0/specifications/msgpack-1.2.4.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions/x86_64-linux/2.6.0/msgpack-1.2.4/gem.build_complete</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions/x86_64-linux/2.6.0/msgpack-1.2.4/gem_make.out</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions/x86_64-linux/2.6.0/msgpack-1.2.4/mkmf.log</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions/x86_64-linux/2.6.0/msgpack-1.2.4/msgpack/msgpack.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/.gitignore</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/.rubocop.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/.travis.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ChangeLog</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/Gemfile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/README.rdoc</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/Rakefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/appveyor.yml</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/pack.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/pack_log.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/pack_log_long.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/pack_symbols.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/run.sh</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/run_long.sh</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/run_symbols.sh</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/unpack.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/unpack_log.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/bench/unpack_log_long.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack/buffer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack/core_ext.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack/error.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack/extension_value.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack/factory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack/packer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/doclib/msgpack/unpacker.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Buffer.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Decoder.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Encoder.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/ExtensionRegistry.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/ExtensionValue.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Factory.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/MessagePackLibrary.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Packer.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Types.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/java/org/msgpack/jruby/Unpacker.java</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/.sitearchdir.-.msgpack.time</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/Makefile</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/buffer.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/buffer.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/buffer.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/buffer_class.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/buffer_class.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/buffer_class.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/compat.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/extconf.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/extension_value_class.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/extension_value_class.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/extension_value_class.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/factory_class.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/factory_class.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/factory_class.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/msgpack.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer_class.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer_class.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer_class.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer_ext_registry.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer_ext_registry.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/packer_ext_registry.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/rbinit.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/rbinit.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/rmem.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/rmem.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/rmem.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/sysdep.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/sysdep_endian.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/sysdep_types.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_class.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_class.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_class.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_ext_registry.c</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_ext_registry.h</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/ext/msgpack/unpacker_ext_registry.o</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack/core_ext.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack/factory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack/msgpack.so</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack/packer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack/symbol.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack/unpacker.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/lib/msgpack/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/msgpack.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/msgpack.org.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cases.json</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cases.msg</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cases_compact.msg</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cases_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cruby/buffer_io_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cruby/buffer_packer.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cruby/buffer_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cruby/buffer_unpacker.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/cruby/unpacker_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/ext_value_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/exttypes.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/factory_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/format_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/jruby/benchmarks/shootout_bm.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/jruby/benchmarks/symbolize_keys_bm.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/jruby/unpacker_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/msgpack_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/pack_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/packer_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/random_compat.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/spec_helper.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/unpack_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/msgpack-1.2.4/spec/unpacker_spec.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/msgpack-1.2.4.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="5">
-            <Date>2018-10-27</Date>
+        <Update release="6">
+            <Date>2018-12-26</Date>
             <Version>1.2.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>James Lee</Name>
-            <Email>jamesl33info@gmail.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
