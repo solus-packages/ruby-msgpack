@@ -1,19 +1,17 @@
 name       : ruby-msgpack
-version    : 1.2.4
-release    : 7
+version    : 1.3.3
+release    : 8
 source     :
-    - https://rubygems.org/downloads/msgpack-1.2.4.gem : c42016f61bac66b39fc05f37ccc05fdd35f725aebcbf9f9b0c6d394e180fbe27
+    - https://rubygems.org/downloads/msgpack-1.3.3.gem : 30aa967022cf6e937bd6ac6d09080b283ea249a5c4e2352a50ae92b5e7326ad3
 license    : Apache-2.0
 component  : programming.ruby
-extract    : no
 summary    : RubyGem - msgpack
 description: |
-    MessagePack is a binary-based efficient object serialization library. It enables to exchange
-    structured objects between many languages like JSON. But unlike JSON, it is very fast and
-    small.
+    MessagePack is a binary-based efficient object serialization library. It enables to exchange structured objects between many languages like JSON. But unlike JSON, it is very fast and small.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc}
